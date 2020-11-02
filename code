@@ -1,23 +1,23 @@
-SELECT question, COUNT(DISTINCT user_id)
+SELECT question, COUNT(DISTINCT user_id) AS 'number of responses'
 FROM survey
 GROUP BY question;
 
-SELECT style, COUNT(DISTINCT user_id)
+SELECT style, COUNT(DISTINCT user_id) AS 'number of responses'
 FROM quiz
 GROUP BY 1
 ORDER BY 2 DESC;
 
-SELECT fit, COUNT(DISTINCT user_id)
+SELECT fit, COUNT(DISTINCT user_id) AS 'number of responses'
 FROM quiz
 GROUP BY 1
 ORDER BY 2 DESC;
 
-SELECT shape, COUNT(DISTINCT user_id)
+SELECT shape, COUNT(DISTINCT user_id) AS 'number of responses'
 FROM quiz
 GROUP BY 1
 ORDER BY 2 DESC;
 
-SELECT style, model_name, COUNT(DISTINCT user_id) 'quantity purchased'
+SELECT style, model_name, COUNT(DISTINCT user_id) AS  'quantity purchased'
 FROM purchase
 GROUP BY style, model_name;
 
