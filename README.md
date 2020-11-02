@@ -33,8 +33,8 @@ A potential customer will take the quiz, and based on the results, the company w
 
 During the Home Try-On stage, we will be conducting an A/B Test:
 
-50% of the users will get 3 pairs to try on
-50% of the users will get 5 pairs to try on
+50% of the users will get 3 pairs to try on.
+50% of the users will get 5 pairs to try on.
 
 The objective is to find out whether or not users who get more pairs to try on at home will be more likely to make a purchase.
 
