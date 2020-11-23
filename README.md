@@ -1,6 +1,6 @@
 # usage-funnels-eyewear
 
-This is a codecademy project using SQL to analyse purchase funnels for a designer eyewear company based on fictional data. The data provided are namely: 'survey', 'quiz', 'home_try_on' and 'purchase'. I have attached the code used in this project and the output results in an Excel file in this repository. The objective is to find out whether or not customers who get more pairs to try on at home will be more likely to make a purchase.
+This project uses SQL to analyse purchase funnels for a designer eyewear company based on fictional data. The data provided are namely: 'survey', 'quiz', 'home_try_on' and 'purchase'. I have attached the code used in this project and the output results in an Excel file in this repository. The objective is to find out whether or not customers who get more pairs to try on at home will be more likely to make a purchase.
 
 The purchase funnel is:
 
